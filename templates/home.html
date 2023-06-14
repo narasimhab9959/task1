@@ -1,0 +1,15 @@
+{% extends 'dummy.html' %}
+{% load static %}
+
+<h1>Here Home page</h1>
+{% block body_block %}
+<div class="card">
+  <img src="{% static 'images/h3.jpg' %}" class="card-img-top" alt="Fissure in Sandstone"/>
+  <div class="card-body">
+    <h5 class="card-title">Narasimha B</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="https://www.youtube.com/watch?v=scNmYjoR-qM" class="btn btn-primary">Button</a>
+  </div>
+</div>
+  {% endblock %}
+
